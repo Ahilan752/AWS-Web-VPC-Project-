@@ -88,6 +88,13 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 - Learned real-world AWS architecture design
 
 ---
+## 🔮 Future Enhancements
+
+- Add a **VPC Endpoint for Amazon S3** to allow EC2 instances to access S3 securely without using the public internet.
+- Improve security by keeping all AWS service traffic within the AWS private network.
+- Extend the architecture with additional monitoring and logging services.
+  
+---
 
 ## 🧑‍💻 Author
 
