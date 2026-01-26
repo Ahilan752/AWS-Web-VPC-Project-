@@ -96,7 +96,3 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
   
 ---
 
-## 🧑‍💻 Author
-
-Ahilan  
-*(AWS / Cloud Learner)*
