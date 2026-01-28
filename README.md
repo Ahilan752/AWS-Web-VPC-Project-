@@ -2,14 +2,14 @@
 
 This project demonstrates the design and deployment of a **highly available and scalable web application** on AWS using core cloud services and best practices.
 
-## 🖼️ Architecture Diagram
+##  Architecture Diagram
 
 ![AWS Architecture Diagram](architecture-diagram.png)
 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The application is deployed inside a custom **AWS VPC spanning two Availability Zones**.  
 It uses **EC2 instances in public subnets**, an **Application Load Balancer**, **Auto Scaling**, 
@@ -19,7 +19,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## 🏗️ Architecture Summary
+##  Architecture Summary
 
 - Custom VPC with **2 Availability Zones**
 - **Public Subnets**
@@ -31,7 +31,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## 🔁 Application Workflow
+##  Application Workflow
 
 1. User accesses the application via the **public internet**
 2. Traffic enters the VPC through the **Internet Gateway (IGW)**
@@ -45,7 +45,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 - **Internet Gateway** enables controlled public access to the application
 - Load Balancer acts as the single entry point for users
@@ -56,7 +56,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## ⚙️ AWS Services Used
+##  AWS Services Used
 
 - Amazon VPC
 - Internet Gateway (IGW)
@@ -69,7 +69,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## 🚀 Key Highlights
+##  Key Highlights
 
 - Highly available Multi-AZ architecture
 - Load-balanced and auto-scaled EC2 application layer
@@ -79,7 +79,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 
 ---
 
-## 📈 Learning Outcome
+##  Learning Outcome
 
 - Hands-on experience with AWS VPC and networking
 - Implemented load balancing and auto scaling
@@ -88,7 +88,7 @@ Users access a web-based form hosted on EC2, and the submitted data is securely 
 - Learned real-world AWS architecture design
 
 ---
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Add a **VPC Endpoint for Amazon S3** to allow EC2 instances to access S3 securely without using the public internet.
 - Improve security by keeping all AWS service traffic within the AWS private network.
